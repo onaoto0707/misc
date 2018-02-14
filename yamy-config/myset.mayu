@@ -1,0 +1,39 @@
+keymap Myset : Global
+include "104.mayu"
+
+keymap Global
+# CapsLock を仮想
+mod mod0 = !E0CapsLock
+mod !mod0
+
+mod mod1 = !RightWindows
+mod !mod1
+ 
+key M0-Space = A-BackQuote
+ 
+ 
+#移動系
+key M0-b = Left
+key M0-p = Up
+Key M0-n = Down
+key M0-f = Right
+key M0-e = End
+key M0-a = Home
+key M0-c = Esc
+
+#削除系
+key M0-h = BackSpace
+key M0-d = Delete
+ 
+ 
+# 仮想デスクトップ用
+key M0-j = W-C-Left
+key M0-l = W-C-Right
+ 
+# その他
+## リロード
+key M0-r = F5
+## 右クリックメニュー表示
+key M0-w = Apps
+## ウィンドウを閉じる
+key M0-q = A-F4
